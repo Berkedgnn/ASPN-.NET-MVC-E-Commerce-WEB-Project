@@ -1,0 +1,72 @@
+.xcenterx {
+    text-align-last: center;
+}
+
+.backrd {
+    background-color: lightgray;
+}
+.backrdlist {
+    background-color: dimgray;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+    padding: 60px 15px 0;
+}
+
+.ortala {
+    text-align-last: center;
+    border: dashed;
+}
+
+#product-price {
+    font-size: 22px;
+    
+}
+
+#box{
+    
+    text-align-last: center;
+    margin-top: 7px;
+    margin-left: -6px;
+    margin-bottom: 7px;
+    margin-right: -6px;
+   
+}
+
+.borderoutline{
+    border-block-color: black;
+    outline-color: aqua;
+    font-family:sans-serif ; 
+
+   
+}
+h5{
+    font-size: 20px;
+    color:black;
+    font-weight: 150;
+    line-height: 1.38em;
+    height: 34px;
+}
+
+.link-text {
+    font-size: 20px;
+    color: black;
+    font-weight: 150;
+    line-height: 1.38em;
+    height: 34px;
+    text-underline-offset:unset;
+    text-decoration:none;
+}
+
+    .link-text:hover {
+        font-size: 20px;
+        color: green;
+        font-weight: 150;
+        line-height: 1.38em;
+        height: 34px;
+        text-decoration:underline;
+    }

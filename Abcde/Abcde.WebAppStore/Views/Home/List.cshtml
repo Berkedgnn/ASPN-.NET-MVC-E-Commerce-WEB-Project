@@ -1,0 +1,33 @@
+﻿@using Abcde.WebAppStore.Models;
+@model IEnumerable<ProductModel>
+
+@{
+    ViewBag.Title = "List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <!--sidebar olusturma-->
+
+
+
+    <div class="col-md-3 ">
+        <div class="list-group mt-3">
+            <a href="#" class="list-group-item list-group-item-action active " style="background-color: #42b646; border-color:#97d499 " aria-current="true">
+                The current link item
+            </a>
+            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
+            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
+            <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
+        </div>
+    </div>
+
+    <div class="col-md-9 mt-3">
+        <!--card oluşturma-->
+
+        @Html.Partial("_ProductList", Model)
+
+    </div>
+</div>
+

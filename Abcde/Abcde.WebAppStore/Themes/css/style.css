@@ -5,6 +5,7 @@
 .backrd {
     background-color: lightgray;
 }
+
 .backrdlist {
     background-color: dimgray;
 }
@@ -24,29 +25,25 @@ main > .container {
 
 #product-price {
     font-size: 22px;
-    
 }
 
-#box{
-    
+#box {
     text-align-last: center;
     margin-top: 7px;
     margin-left: -6px;
     margin-bottom: 7px;
     margin-right: -6px;
-   
 }
 
-.borderoutline{
+.borderoutline {
     border-block-color: black;
     outline-color: aqua;
-    font-family:sans-serif ; 
-
-   
+    font-family: sans-serif;
 }
-h5{
+
+h5 {
     font-size: 20px;
-    color:black;
+    color: black;
     font-weight: 150;
     line-height: 1.38em;
     height: 34px;
@@ -57,16 +54,40 @@ h5{
     color: black;
     font-weight: 150;
     line-height: 1.38em;
+    font-weight:500;
     height: 34px;
-    text-underline-offset:unset;
-    text-decoration:none;
+    text-underline-offset: unset;
+    text-decoration: none;
 }
 
-    .link-text:hover {
+.link-text:hover {
         font-size: 20px;
         color: green;
         font-weight: 150;
         line-height: 1.38em;
         height: 34px;
-        text-decoration:underline;
-    }
+        text-decoration: underline;
+}
+
+.description{
+    font-size:12px;
+    height:40px;
+}
+
+.price-card{
+    color:yellowgreen;
+    font-weight:800;
+    margin-top:auto;
+}
+.look-btn{
+    float:right;
+    outline-color:black;
+    background-color:dimgray;
+    border-color:black;
+    border-width:0.4mm;
+
+}
+.sidetext{
+    font-weight:500;
+    border-color:black;
+}

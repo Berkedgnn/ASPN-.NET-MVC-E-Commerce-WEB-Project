@@ -8,26 +8,27 @@
 
 <div class="row">
     <!--sidebar olusturma-->
-
-
-
     <div class="col-md-3 ">
-        <div class="list-group mt-3">
-            <a href="#" class="list-group-item list-group-item-action active " style="background-color: #42b646; border-color:#97d499 " aria-current="true">
-                The current link item
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
-            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
-            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-            <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
-        </div>
+        @Html.Action("GetCategories", "Home")
     </div>
 
     <div class="col-md-9 mt-3">
+        @if (Model.Count() == 0)
+        {
+            <div class="alert alert-danger" role="alert">
+                <i class="bi bi-exclamation-triangle-fill"></i>
+                There is no item in this category.
+            </div>
+        }
+        else
+        {
+            <div class="alert alert-success" role="alert">
+                <i class="bi bi-check-circle-fill"></i>
+                <strong>@Model.Count()</strong> items found in this category.
+            </div>
+        }
         <!--card oluşturma-->
-
         @Html.Partial("_ProductList", Model)
-
     </div>
 </div>
 

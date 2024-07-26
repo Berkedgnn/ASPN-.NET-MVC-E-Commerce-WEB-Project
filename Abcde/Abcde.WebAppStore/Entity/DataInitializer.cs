@@ -51,7 +51,7 @@ namespace Abcde.WebAppStore.Entity
              new Product(){Name="Macbook pro m2", Description="model yılı 2023. işlemci M2pro ram 16gb", Price=1800, Stock=25, IsApproved=true, CategoryId=4, IsHome=true, Image="16.jpg"},
              new Product(){Name="Macbook pro m3", Description="berkeeeee model yılı 2024. işlemci M3max ram 16gbvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv", Price=2200, Stock=25, IsApproved=true, CategoryId=4, IsHome=true, Image="17.jpg"},
 
-             new Product(){Name="Xbox Series X", Description="model yılı 2020. Microsoft oyun konsolu 1TB", Price=500, Stock=250, IsApproved=true, CategoryId=5, IsHome=false, Image="18.jpg"},
+             new Product(){Name="Xbox Series X", Description="model yılı 2020. Microsoft oyun konsolu 1TB", Price=500, Stock=250, IsApproved=false, CategoryId=5, IsHome=false, Image="18.jpg"},
              new Product(){Name="Playstation 5 Slim", Description="model yılı 2020. Sony oyun konsolu 1TB", Price=500, Stock=250, IsApproved=true, CategoryId=5, IsHome=true, Image="19.jpg"},
             };
 

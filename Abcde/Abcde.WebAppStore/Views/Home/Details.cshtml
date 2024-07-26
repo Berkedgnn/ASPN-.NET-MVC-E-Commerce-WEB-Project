@@ -72,7 +72,16 @@
                               style="text-align-last: left; color: #000000; font-size: xx-small">Product number:12</span>
                     </div>
                     <div class="col-md-6" style="text-align-last: right">
-                        <span class="badge rounded-4 text-bg-success" style="text-align-last: right">In stock</span>
+
+                        @if (Model.IsApproved == true)
+                        {
+                            <span class="badge rounded-4 text-bg-success" style="text-align-last: right">In stock</span>
+                        }
+                        else
+                        {
+                            <span class="badge rounded-4 text-bg-danger" style="text-align-last: right">Out of stock</span>
+                        }
+
                     </div>
                 </div>
                 <div class="row rounded-bottom-3"
@@ -110,8 +119,8 @@
 
                 <div class="row mt-3">
                     <div class="col-md-12">
-                        <div id="description" style=" word-wrap: break-word; " >
-                             @Model.Description
+                        <div id="description" style=" word-wrap: break-word; ">
+                            @Model.Description
                         </div>
                     </div>
                 </div>

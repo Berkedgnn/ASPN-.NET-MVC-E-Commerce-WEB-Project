@@ -13,14 +13,17 @@
                      alt="@urun.Name" />
                 <div class="card-body">
                     <h5 class="card-title">
-                        <a  class="link-text"  href="~/Home/Details/@urun.Id">@urun.Name</a>
+                        <a class="link-text" href="~/Home/Details/@urun.Id">@urun.Name</a>
                     </h5>
-                    <p class="card-text">
+                    <p class="card-text description">
                         @urun.Description
                     </p>
                 </div>
                 <div class="card-footer">
-                    <small class="text-body-secondary">@urun.Price $</small>
+                    <small class="text-body-secondary price-card">@urun.Price $</small>
+                    <a class="btn btn-primary btn-sm look-btn" href="~/Home/Details/@urun.Id">
+                        <i class="bi bi-eye-fill"></i>
+                    </a>
                 </div>
             </div>
         </div>

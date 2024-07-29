@@ -7,127 +7,104 @@
 }
 
 <div class="row">
-    <!--sidebar olusturma-->
-    <div class="col-md-3">
-        <div class="list-group mt-3">
-            <a href="#"
-               class="list-group-item list-group-item-action active"
-               style="background-color: #42b646; border-color: #97d499"
-               aria-current="true">
-                The current link item
-            </a>
-            <a href="#" class="list-group-item list-group-item-action">A second link item</a>
-            <a href="#" class="list-group-item list-group-item-action">A third link item</a>
-            <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-            <a class="list-group-item list-group-item-action disabled" aria-disabled="true">A disabled link item</a>
+    <div class="col-md-12 mt-3">
+        <div class="col-md-12">
+            <div class="borderoutline row border border-3 rounded-3"
+                 style="background-color: #214557a6; border-color: #0b32468f">
+                <div class="col-md-6"
+                     style="
+              text-align-last:center;
+              font-size: larger;
+              color: white;
+              font-weight:500;
+              ">
+                    @Model.Name
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-6">
+        <div class="row m-1">
+            <img src="~/Upload/@Model.Image" class="img-fluid w-100 h-100 mt-3 rounded-3" />
         </div>
     </div>
 
-    <div class="col-md-9">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="row mt-3">
-                    <div class="col-md-12">
-                        <div class="borderoutline row border border-3 rounded-3"
-                             style="background-color: #2174dd">
-                            <div class="rounded-top"
-                                 style="
-              text-align-last: center;
-              font-size: larger;
-              color: white;
-              outline-color: black;
-          ">
-                                @Model.Name
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <div class="row m-1">
-                    <img src="~/Upload/@Model.Image" class="img-fluid w-100 h-100 mt-3 rounded-3" />
-                </div>
-            </div>
-
-
-            <div class="col-md-6 mt-3">
-                <div class="backrd row rounded-top-3" style="background-color: #999999">
-                    <div class="rounded-top"
-                         style="
+    <div class="col-md-6 mt-3">
+        <div class="backrd row rounded-top-3" style="background-color: #999999">
+            <div class="rounded-top"
+                 style="
                   text-align-last: center;
                   font-size: thinner;
                   color: black;
                   outline-color: black;
               ">
-                        (128gb) Türkiye Garantili
-                    </div>
-                </div>
-                <div class="row border" style="background-color: #f2f2f2ff">
-                    <div class="col-md-6">
-                        <span class=""
-                              style="text-align-last: left; color: #000000; font-size: xx-small">Product number:12</span>
-                    </div>
-                    <div class="col-md-6" style="text-align-last: right">
+                Türkiye Garantili
+            </div>
+        </div>
+        <div class="row border" style="background-color: #f2f2f2ff">
+            <div class="col-md-6">
+                <span class=""
+                      style="text-align-last: left; color: #000000; font-size: xx-small">Product number:12</span>
+            </div>
+            <div class="col-md-6" style="text-align-last: right">
 
-                        @if (Model.IsApproved == true)
-                        {
-                            <span class="badge rounded-4 text-bg-success" style="text-align-last: right">In stock</span>
-                        }
-                        else
-                        {
-                            <span class="badge rounded-4 text-bg-danger" style="text-align-last: right">Out of stock</span>
-                        }
+                @if (Model.IsApproved == true)
+                {
+                    <span class="badge rounded-4 text-bg-success" style="text-align-last: right">In stock</span>
+                }
+                else
+                {
+                    <span class="badge rounded-4 text-bg-danger" style="text-align-last: right">Out of stock</span>
+                }
 
-                    </div>
-                </div>
-                <div class="row rounded-bottom-3"
-                     style="background-color: #f2f2f2ff; border-block-start-style: inset">
-                    <div class="col-md-6">
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-fill"></i>
-                        <i class="bi bi-star-half"></i>
-                        <span class="badge rounded-4 text-bg-warning">53</span>
-                    </div>
-                    <div id="write-review" class="col-md-6" style="text-align-last: right">
-                        <a href="#">Write a review</a>
-                    </div>
-                </div>
-                <div class="row mt-3">
+            </div>
+        </div>
+        <div class="row rounded-bottom-3"
+             style="background-color: #f2f2f2ff; border-block-start-style: inset">
+            <div class="col-md-6">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+                <span class="badge rounded-4 text-bg-warning">53</span>
+            </div>
+            <div id="write-review" class="col-md-6" style="text-align-last: right">
+                <a href="#">Write a review</a>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div id="box1" class="row rounded-3" style="background-color: lightgray">
                     <div class="col-md-12">
-                        <div id="box1" class="row rounded-3" style="background-color: lightgray">
-                            <div class="col-md-12">
-                                <div id="box"
-                                     class="row rounded-3"
-                                     style="background-color: #ffffff">
-                                    <h4 id="product-price" style="text-align-last: center">@Model.Price $</h4>
-                                    <button class="btn btn-success rounded-bottom-3 rounded-top-0"
-                                            style="font-size: x-small">
-                                        Add to chart
-                                        <i class="bi bi-cart"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-md-12">
-                        <div id="description" style=" word-wrap: break-word; ">
-                            @Model.Description
+                        <div id="box"
+                             class="row rounded-3"
+                             style="background-color: #ffffff">
+                            <h4 id="product-price" style="text-align-last: center">@Model.Price $</h4>
+                            <button class="btn btn-success rounded-bottom-3 rounded-top-0"
+                                    style="font-size: x-small">
+                                Add to chart
+                                <i class="bi bi-cart"></i>
+                            </button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
+        <div class="row mt-3">
+            <div class="col-md-12">
+                <div id="description" style=" word-wrap: break-word; ">
+                    @Model.Description
+                </div>
+            </div>
         </div>
     </div>
+
 </div>
 <div class="row mt-3">
     <div class="col-md-12">

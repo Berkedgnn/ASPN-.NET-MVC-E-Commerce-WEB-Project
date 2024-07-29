@@ -2,13 +2,16 @@
 @model IEnumerable<Abcde.WebAppStore.Entity.Category>
 <link rel="stylesheet" href="~/Themes/css/style.css" />
 @{
+    
     var selectedCategory = Url.RequestContext.RouteData.Values["id"];
+
+
 }
 
 <div class=" shadow-lg list-group mt-3">
     @if (selectedCategory == null)
     {
-        <a href="~/Home/List" class="list-group-item list-group-item-action active shadow-sm" 
+        <a href="~/Home/List" class="list-group-item list-group-item-action active shadow-sm"
            style="background-color: #214557a6; border-color: #0b32468f"
            aria-current="true">
             All Categories
@@ -16,7 +19,7 @@
     }
     else
     {
-        <a href="~/Home/List" class="list-group-item list-group-item-action" 
+        <a href="~/Home/List" class="list-group-item list-group-item-action"
            style="background-color: #838a8e17; border-color: #0b32468f;">All Categories</a>
     }
 
@@ -24,13 +27,13 @@
     {
         if (Convert.ToInt32(selectedCategory) == item.Id)
         {
-            <a href="~/Home/List/@item.Id" class="list-group-item list-group-item-action active sidetext shadow-lg" 
+            <a href="~/Home/List/@item.Id" class="list-group-item list-group-item-action active sidetext shadow-lg"
                style="background-color: #214557a6; border-color: #0b32468f" aria-current="true">
                 @item.Name
             </a>
         }
         else
-        {<a href="~/Home/List/@item.Id" class=" shadow-sm list-group-item list-group-item-action" 
+        {<a href="~/Home/List/@item.Id" class=" shadow-sm list-group-item list-group-item-action"
             style="background-color: whitesmoke; border-color: #0b32468f;"> @item.Name</a>}
-}
+    }
 </div>

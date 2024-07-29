@@ -32,5 +32,7 @@ namespace Abcde.WebAppStore.Entity
         //her ürünün bir kategorisi olması için ve bunu atamak için kategori tipinden bir prop atayıp kategorilere erişmiş oluyoruz.
         public Category Category { get; set; }
         public string DetailedDescription { get; set; }
+
+
     }
 }

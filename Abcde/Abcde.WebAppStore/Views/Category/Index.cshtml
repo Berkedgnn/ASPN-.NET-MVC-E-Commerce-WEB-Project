@@ -1,0 +1,116 @@
+﻿@model IEnumerable<Abcde.WebAppStore.Entity.Category>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="border m-3 border-0 rounded-5 " style="background-color: #0b32460d">
+    <div class="row m-3">
+
+        <div class="border border-3 rounded-4 p-2 mb-2 mt-3 shadow-lg" style="background-color:white">
+            <h2 style="float:left; margin-left:8px">Categories</h2>
+            <button type="button" class="btn btn-outline-success btn-sm" style="float:right; margin:8px;"> @Html.ActionLink("Create New", "Create")</button>
+        </div>
+    </div>
+
+    <div class="row m-3">
+        <div class="border border-3 rounded-4 p-2 mb-3 shadow-lg" style="background-color:white">
+            <table class="table mt-3" style=" background-color: #0b32461c ">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th></th>
+                </tr>
+
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                        </td>
+                    </tr>
+                }
+
+            </table>
+        </div>
+
+    </div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

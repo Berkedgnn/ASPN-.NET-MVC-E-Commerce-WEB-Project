@@ -1,0 +1,86 @@
+﻿@model Abcde.WebAppStore.Models.Register
+
+@{
+    ViewBag.Title = "Register";
+
+}
+
+
+
+
+
+
+<div class="d-flex justify-content-center align-items-center vh-100" style="background-color: #3789542a; margin-inline-start: -90px; margin-inline-end: -90px; margin-block-end: -16px; margin-block-start: -16px">
+    <div class="border m-3 border-0 rounded-5 p-4 shadow-lg" style="background-color: #0b324636; width: 100%; max-width: 500px;">
+
+        <div class="container">
+            @using (Html.BeginForm())
+            {
+                @Html.AntiForgeryToken()
+
+                <div class="form-horizontal">
+                    <h6>Add New User</h6>
+                    <hr />
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                    <div class="form-group border border-0 rounded-4 p-2 mb-3 shadow-lg" style="background-color: #0000004d;">
+
+                        @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2", style = " width: 55%; font-weight: 600" })
+                        @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group border border-0 rounded-4 p-2 mb-3 shadow-lg" style="background-color: #0000004d;">
+
+                        @Html.LabelFor(model => model.SurName, htmlAttributes: new { @class = "control-label col-md-2", style = " width: 55%; font-weight: 600" })
+                        @Html.EditorFor(model => model.SurName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.SurName, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group border border-0 rounded-4 p-2 mb-3 shadow-lg" style="background-color: #0000004d;">
+
+                        @Html.LabelFor(model => model.UserName, htmlAttributes: new { @class = "control-label col-md-2", style = " width: 55%; font-weight: 600" })
+                        @Html.EditorFor(model => model.UserName, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.UserName, "", new { @class = "text-danger" })
+                    </div>
+
+                    <div class="form-group border border-0 rounded-4 p-2 mb-3 shadow-lg" style="background-color: #0000004d;">
+
+                        @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "control-label col-md-2", style = " width: 55%; font-weight: 600" })
+                        @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group border border-0 rounded-4 p-2 mb-3 shadow-lg" style="background-color: #0000004d;">
+
+                        @Html.LabelFor(model => model.Password, htmlAttributes: new { @class = "control-label col-md-2", style = " width: 55%; font-weight: 600" })
+                        @Html.EditorFor(model => model.Password, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                    </div>
+                    <div class="form-group border border-0 rounded-4 p-2 mb-3 shadow-lg" style="background-color: #0000004d;">
+
+                        @Html.LabelFor(model => model.RePassword, htmlAttributes: new { @class = "control-label col-md-2", style = " width: 55%; font-weight: 600" })
+                        @Html.EditorFor(model => model.RePassword, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.RePassword, "", new { @class = "text-danger" })
+                    </div>
+
+                    <br />
+                    <div class="form-group text-center d-flex">
+                        <div class="col-12">
+                            <input type="submit" value="register" class="btn btn-secondary" />
+                        </div>
+                    </div>
+
+                    <div class="form-group text-center">
+                        <div class="col-md-offset-2 col-md-10">
+                            <label>@ViewBag.Notification</label>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

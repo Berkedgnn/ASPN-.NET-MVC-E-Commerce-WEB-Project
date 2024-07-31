@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\berke\\source\\repos\\Abcde\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|c:\\users\\berke\\source\\repos\\abcde\\abcde.webappstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|c:\\users\\berke\\source\\repos\\abcde\\abcde.webappstore\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|C:\\Users\\berke\\source\\repos\\Abcde\\abcde.webappstore\\entity\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\entity\\datacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|c:\\users\\berke\\source\\repos\\abcde\\abcde.webappstore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|C:\\Users\\berke\\source\\repos\\Abcde\\abcde.webappstore\\entity\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\entity\\datainitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|C:\\Users\\berke\\source\\repos\\Abcde\\abcde.webappstore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|C:\\Users\\berke\\source\\repos\\Abcde\\abcde.webappstore\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|C:\\Users\\berke\\source\\repos\\Abcde\\abcde.webappstore\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|c:\\users\\berke\\source\\repos\\abcde\\abcde.webappstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{701E16F2-759F-443E-A56E-61C14A1831A4}|Abcde.WebAppStore\\Abcde.WebAppStore.csproj|solutionrelative:abcde.webappstore\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,75 +27,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Abcde.WebAppStore\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Abcde.WebAppStore\\Views\\Account\\Register.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-30T13:51:43.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Abcde.WebAppStore\\Controllers\\CategoryController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T13:46:07.188Z",
+              "WhenOpened": "2024-07-30T13:47:33.584Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DataContext.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Entity\\DataContext.cs",
-              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Entity\\DataContext.cs",
-              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Entity\\DataContext.cs",
-              "RelativeToolTip": "Abcde.WebAppStore\\Entity\\DataContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Abcde.WebAppStore\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwGcAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T13:46:02.222Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataInitializer.cs",
-              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Entity\\DataInitializer.cs",
-              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Entity\\DataInitializer.cs",
-              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Entity\\DataInitializer.cs",
-              "RelativeToolTip": "Abcde.WebAppStore\\Entity\\DataInitializer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-26T13:46:01.049Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Home\\Details.cshtml",
-              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Views\\Home\\Details.cshtml",
-              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Home\\Details.cshtml",
-              "RelativeToolTip": "Abcde.WebAppStore\\Views\\Home\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T13:45:59.045Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Category\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Views\\Category\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Category\\Edit.cshtml",
-              "RelativeToolTip": "Abcde.WebAppStore\\Views\\Category\\Edit.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T13:36:20.879Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "Abcde.WebAppStore\\Views\\Category\\Index.cshtml",
-              "ToolTip": "C:\\Users\\berke\\source\\repos\\Abcde\\Abcde.WebAppStore\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "Abcde.WebAppStore\\Views\\Category\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-26T13:18:13.748Z"
+              "WhenOpened": "2024-07-30T12:42:57.617Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -6,10 +6,12 @@ using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Security;
 using Abcde.WebAppStore.Entity;
 
 namespace Abcde.WebAppStore.Controllers
 {
+    [Authorize(Roles="admin")]
     public class CategoryController : Controller
     {
         private DataContext db = new DataContext();
